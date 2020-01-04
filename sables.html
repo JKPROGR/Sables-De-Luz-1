@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    
+
+    
+
+    <div class="contenedor cont1">
+        <div class="box sable blue" id="sable1"></div>
+        <div class="box mango" id="mango1">
+            <img src="mango_sable.png" alt="">
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <div class="box sable red" id="sable2"></div>
+        <div class="box mango" id="mango2">
+            <img src="mango_sable.png" alt="">
+        </div>
+    </div>
+    <div class="contenedor cont3">
+        <div class="box sable green" id="sable3"></div>
+        <div class="box mango" id="mango3">
+            <img src="mango_sable.png" alt="">
+        </div>
+    </div>
+
+
+    <script>
+    
+    function funcion1(){
+        let s1=document.getElementById("sable1")
+        s1.style.transform="scaleY(1)"
+    }
+
+    let m1=document.getElementById("mango1")
+    m1.onclick=funcion1
+    
+
+     function funcion2() {
+            let s2 = document.getElementById("sable2")
+            s2.style.transform = "scaleY(1)"
+        }
+
+        let m2 = document.getElementById("mango2")
+        m2.onclick = funcion2
+
+
+         function funcion3() {
+                let s3 = document.getElementById("sable3")
+                s3.style.transform = "scaleY(1)"
+            }
+
+            let m3 = document.getElementById("mango3")
+            m3.onclick = funcion3
+    </script>
+</body>
+</html>

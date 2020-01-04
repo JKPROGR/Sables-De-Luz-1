@@ -1,0 +1,61 @@
+body{
+    background: #0d161d;
+    cursor: pointer;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    height: 400px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px ;
+}
+.box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+.sable{
+    height: 220px;
+    width: 8px;
+    background: #fff;
+    border-radius: 7px 7px 0 0 ;
+    transition: .3s;
+    transform-origin: bottom;
+    margin-left: -2px;
+    transform: scale(0);
+}
+.blue{
+    box-shadow: 0 0 10px blue,
+    0 0 20px blue,
+    0 0 24px blue;
+}
+.red{
+    box-shadow: 0 0 10px red,
+    0 0 20px red,
+    0 0 24px red;
+}
+.green{
+    box-shadow: 0 0 10px green,
+    0 0 20px green,
+    0 0 24px green;
+}
+
+
+.mango{
+    height: 150px;
+    width: 33px;
+    top: 26.7em;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
